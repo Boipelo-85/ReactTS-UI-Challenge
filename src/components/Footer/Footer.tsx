@@ -3,7 +3,7 @@ import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
 import { FaFacebook, FaInstagram, FaPinterest } from 'react-icons/fa'
 import CupCake from '../../assets/collection.jpg'
-import footerImage from '../../assets/footer_img.png'
+import footerImage from '../../assets/footer_card.png'
 
 
 export const Footer = () => {
