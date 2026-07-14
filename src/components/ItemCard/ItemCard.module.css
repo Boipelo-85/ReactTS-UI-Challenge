@@ -28,6 +28,7 @@
 
 .image-row {
     background-color: #edd0cc;
+    margin: 0;
 }
 
 .text-row {
@@ -63,7 +64,7 @@
 }
 .texts-card{
 
-    border: 1px solid #f9f4f4;
+
     border-top: 0px;
     
 }
