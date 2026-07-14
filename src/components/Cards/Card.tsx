@@ -1,7 +1,6 @@
-import React from 'react'
+
 import styles from './Card.module.css'
-import cupcakes from '../../assets/cupCake-stand.png'
-import macoroins from '../../assets/macoroins-mid.png'
+
 
 export const Card = () => {
         return (

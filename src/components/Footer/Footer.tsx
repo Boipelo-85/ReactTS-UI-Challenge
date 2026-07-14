@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
 import { FaFacebook, FaInstagram, FaPinterest } from 'react-icons/fa'

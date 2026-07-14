@@ -10,7 +10,7 @@ export type PropsItems = {
     imgLink : string
 }
 
-export const ItemCardImage : React.FC<PropsItems> = ({imgLink,description}) => {
+export const ItemCardImage : React.FC<PropsItems> = ({imgLink}) => {
 
   return (
     

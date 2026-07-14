@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { Text } from '../Texts/Text'
 import styles from './Navbar.module.css'

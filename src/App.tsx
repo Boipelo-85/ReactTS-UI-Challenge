@@ -15,8 +15,8 @@ import { Card } from './components/Cards/Card'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [itemCakes,setItemCakes] = useState([
+
+  const [itemCakes] = useState([
 
         {name:'Custom Cake',description : 'Custom cakes in South Africa are special because they combine artistry with , flavor—bakeries across the country design cakes',imgLink : cupCakes},
         {name:'Macaroins',description : 'Custom cakes in South Africa are special because they combine artistry with , flavor—bakeries across the country design cakes',imgLink : secCupCakes},
