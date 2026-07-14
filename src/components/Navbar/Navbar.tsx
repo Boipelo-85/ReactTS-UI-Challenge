@@ -1,39 +1,56 @@
 
-import { Text } from '../Texts/Text'
+import { useState } from 'react'
 import styles from './Navbar.module.css'
 import { ContentContainer } from '../ContentContainer'
 
-
 export const Navbar = () => {
-  return (  
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-          < nav >
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
 
-                <ContentContainer className={styles.content}>
+  let navLinksClassName = styles['nav-links']
 
-                
-                    <Text variant={'h2'} style={{color:'#000',margin : 0,fontFamily:'Alex Brush',fontStyle:'italic',padding: '3px',fontSize:'45px',fontWeight:'bold'}}>Patisserie</Text>
-                
-                <div className={styles['nav-right']}>
+  if (isMenuOpen) {
+    navLinksClassName = `${styles['nav-links']} ${styles.open}`
+  }
 
+  return (
+    <nav className={styles.nav}>
+      <ContentContainer className={styles.content}>
+        <h2 className={styles.brand}>Patisserie</h2>
 
-                <div className={styles['nav-links']}>
-                        <a href='#home' className={styles['link']}>HOME</a>
-                        <a href='#menu' className={styles['link']}>MENU</a>
-                        <a href='#cakes' className={styles['link']}>CAKES</a>
-                        <a href='#pastries' className={styles['link']}>PASTRIESE</a>
-                        <a href='#contact' className={styles['link']}>CONTACT</a>
-                </div>
-                <div className={styles['profile-contact']}>
+        <div className={styles['nav-right']}>
+          <div>
+            <button
+              type="button"
+              className={styles['menu-toggle']}
+              onClick={toggleMenu}
+              aria-label="Toggle navigation"
+              aria-expanded={isMenuOpen}
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+          </div>
 
-                          <button className={styles['nav-button']}> 0666 ORDER NOW </button>
-                </div>
+          <div className={navLinksClassName}>
+            <a href="#home" className={styles.link}>HOME</a>
+            <a href="#menu" className={styles.link}>MENU</a>
+            <a href="#cakes" className={styles.link}>CAKES</a>
+            <a href="#pastries" className={styles.link}>PASTRIES</a>
+            <a href="#contact" className={styles.link}>CONTACT</a>
+          </div>
 
-                </div>
-
-                </ContentContainer>
-               
-          
+          <div className={styles['profile-contact']}>
+            <button type="button" className={styles['nav-button']}>
+              0666 ORDER NOW
+            </button>
+          </div>
+        </div>
+      </ContentContainer>
     </nav>
   )
 }

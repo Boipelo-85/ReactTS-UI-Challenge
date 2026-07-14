@@ -35,8 +35,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-top: 100px;
-        margin-top: 30px;
+        padding-top: 15px;
         position: relative;
 
 }
@@ -56,6 +55,41 @@
         background-color: #fdfdfd;
         color: black;
 }
+
+@media (max-width: 768px) {
+    #main-picture {
+        min-height: 80vh;
+        padding-top: 120px;
+        background-position: center center;
+    }
+
+    #main-texts {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    #picture-button {
+        font-size: 0.9rem;
+        padding: 10px 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #main-picture {
+        min-height: 70vh;
+        padding-top: 90px;
+    }
+
+    #main-texts {
+        padding-top: 0;
+    }
+
+    #picture-button {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+}
+
 #middle-content{
 
     background-color: #eccfcb;

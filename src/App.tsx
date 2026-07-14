@@ -33,8 +33,8 @@ function App() {
         <div id='main-picture'>
 
           <div id='main-texts'>
-            <Text variant={'h2'} style={{ color: 'black', fontFamily: 'Alex Brush', fontWeight: 'bold', textAlign: 'center', paddingTop: '10px', paddingBottom: '5px', fontStyle: 'italic', fontSize: '70px' }}>Delight in </Text>
-            <Text variant={'h2'} style={{ color: '#5a5454', padding: '5px' }}>PATIICU IN RUERY BITE!</Text>
+            <Text variant={'h2'} style={{ color: 'black', fontFamily: 'Alex Brush', fontWeight: 'bold', textAlign: 'center', paddingTop: '10px', fontStyle: 'italic', fontSize: '70px',marginBottom: '0px' }}>Delight in </Text>
+            <Text variant={'h2'} style={{ color: '#5a5454', padding: '2px',paddingTop: '5px' }}>PATIICU IN RUERY BITE!</Text>
             <div>
 
               <button id='picture-button'>
