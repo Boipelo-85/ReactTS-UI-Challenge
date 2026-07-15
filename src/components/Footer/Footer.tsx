@@ -20,7 +20,7 @@ export const Footer = () => {
         </div>
         
         <div className={styles['footer-right']}>
-          <p>Patisserie de Pâte</p>
+          <p style={{fontFamily:'Dancing Script'}}>Patisserie de Pâte</p>
           <div className={styles['icons']}>
             <a href="https://www.facebook.com/thecakebakeshop" title="The Cake Bake Shop® on Facebook" target="_blank" >
               <FaFacebook className={styles['icon1']} />

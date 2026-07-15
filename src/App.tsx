@@ -34,7 +34,7 @@ function App() {
 
           <div id='main-texts'>
             <Text variant={'h2'} style={{ color: 'black', fontFamily: 'Alex Brush', fontWeight: 'bold', textAlign: 'center', paddingTop: '10px', fontStyle: 'italic', fontSize: '70px',marginBottom: '0px' }}>Delight in </Text>
-            <Text variant={'h2'} style={{ color: '#5a5454', padding: '2px',paddingTop: '5px' }}>PATIICU IN RUERY BITE!</Text>
+            <Text variant={'h2'} style={{ color: '#131212', padding: '2px',paddingTop: '5px',fontFamily: 'Century Gothic'}}>PATIICU IN FUERY BITE!</Text>
             <div>
 
               <button id='picture-button'>
@@ -47,7 +47,7 @@ function App() {
 
         </div>
         <div id='middle-content'>
-            <Text variant={'h2'} style={{color:'#222222',fontFamily:'Syne Mono',fontSize:30}}> Delight in every Bite! </Text>
+            <Text variant={'h2'} style={{color:'#222222',fontFamily: "Exo, sans-serif",fontSize:30}}> Delight in every Bite! </Text>
         </div>
 
         <div id='mid-content'>

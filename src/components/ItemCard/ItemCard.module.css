@@ -2,121 +2,85 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;
-    padding: 0;
+   
 
 }
 
 .cards-row {
     display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
+    
 }
 
 .image-row,
 .text-row {
+    
     display: flex;
     width: 100%;
-    margin: 0;
-    padding: 0;
     justify-content: center;
-    align-items: stretch;
-    gap: 2px;
+    /* align-items: stretch; */
 }
 
 .image-row {
     background-color: #edd0cc;
-    margin: 0;
+    
 }
 
 .text-row {
     background-color: #eae9e4;
 }
 
-.card-column {
-    flex: 1;
-    min-width: 0;
-    margin: 0;
-    padding: 0 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.whole-pictures {
-    width: 100%;
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .image-card,
 .texts-card {
-    width: 58%;
-    max-width: 300px;
-    padding: 0;
+    width: 160px;
+    padding-left: 80px;
+    padding-right: 80px;
     gap:5px;
-    
-}
-.texts-card{
 
-
-    border-top: 0px;
-    
 }
 .image-card {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .texts-card {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.mid-pictures {
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 100%;
+    border-top: 0px;
 }
 
 .image {
 
-    width: 100%;
+    width: 300px;
     height: 240px;
     object-fit: cover;
-    border-radius: 2px;
-    padding: 0;
-    margin-bottom: 0;
+    border-radius: 1px;
 
 }
 
 .mid-texts{
 
     border-top: 0px;
-    padding: 15px;
+    padding: 0 50px;
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 300px;
     box-sizing: border-box;
     min-height: 100px;
-    gap:20px;
-    background-color: #f9f4f4;
+    background-color: #eeebe5;
     
 }
 .buttons{
 
     justify-content: center;
-    padding: 5px;
+    padding: 5px 25px;
     border: 1px;
     background-color: rgb(245, 157, 171);
     color:#000;

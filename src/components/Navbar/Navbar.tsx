@@ -37,11 +37,11 @@ export const Navbar = () => {
           </div>
 
           <div className={navLinksClassName}>
-            <a href="#home" className={styles.link}>HOME</a>
+            <a href="#main-picture" className={styles.link}>HOME</a>
             <a href="#menu" className={styles.link}>MENU</a>
-            <a href="#cakes" className={styles.link}>CAKES</a>
-            <a href="#pastries" className={styles.link}>PASTRIES</a>
-            <a href="#contact" className={styles.link}>CONTACT</a>
+            <a href="#mid-content" className={styles.link}>CAKES</a>
+            <a href="#card-wholeContent" className={styles.link}>PASTRIES</a>
+            <a href="Footer" className={styles.link}>CONTACT</a>
           </div>
 
           <div className={styles['profile-contact']}>

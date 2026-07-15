@@ -14,13 +14,14 @@ type ItemsProps = {
 export const MenuItem: React.FC<ItemsProps> = ({ items }) => {
     return (
         <section className={styles['cards-section']}>
+
             <div className={styles['cards-row']}>
                 <div className={styles['image-row']}>
 
                     {items && items.length > 0 && items.map(product => (
                         <div className={styles['card-column']}>
                             <div className={styles['image-card']}>
-                                <ItemCardImage
+                                <ItemCardImage 
                                     imgLink={product.imgLink}
                                     name={product.name}
                                     description={product.description}
