@@ -11,9 +11,11 @@ export const Navbar = () => {
   }
 
   let navLinksClassName = styles['nav-links']
+  let buttonClass = styles['mobile-order-button']
 
   if (isMenuOpen) {
     navLinksClassName = `${styles['nav-links']} ${styles.open}`
+    buttonClass = `${styles['mobile-order-button']} ${styles.open}`
   }
 
   return (
@@ -22,7 +24,7 @@ export const Navbar = () => {
         <h2 className={styles.brand}>Patisserie</h2>
 
         <div className={styles['nav-right']}>
-          <div>
+          <div className={styles['mobile-controls']}>
             <button
               type="button"
               className={styles['menu-toggle']}
@@ -34,6 +36,12 @@ export const Navbar = () => {
               <span />
               <span />
             </button>
+
+            <div className={buttonClass}>
+              <button type="button" className={styles['nav-button']}>
+                0666 ORDER NOW
+              </button>
+            </div>
           </div>
 
           <div className={navLinksClassName}>

@@ -36,7 +36,6 @@ function App() {
             <Text variant={'h2'} style={{ color: 'black', fontFamily: 'Alex Brush', fontWeight: 'bold', textAlign: 'center', paddingTop: '10px', fontStyle: 'italic', fontSize: '70px',marginBottom: '0px' }}>Delight in </Text>
             <Text variant={'h2'} style={{ color: '#131212', padding: '2px',paddingTop: '5px',fontFamily: 'Century Gothic'}}>PATIICU IN FUERY BITE!</Text>
             <div>
-
               <button id='picture-button'>
                 ORDER NOW
               </button>
