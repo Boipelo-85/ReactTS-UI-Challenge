@@ -30,9 +30,9 @@ export const Footer = () => {
             </a>
             <a  href="https://www.pinterest.com/thecakebakeshop" title="The Cake Bake Shop® on Pinterest" target="_blank" >
               <FaPinterest className={styles['icon3']} />
-            </a>   
+            </a>
           </div>
-          <p >Follow us on all socila media platform</p>
+          <p style={{paddingLeft: '70px',fontSize: '9px'}}>Follow us on all socials </p>
         </div>
       </ContentContainer>
     </footer>

@@ -29,6 +29,7 @@ footer{
   padding: 0 20px;
   justify-content: center;
   border-right: 1px solid rgba(5, 5, 5, 0.4);
+
 }
 
 .cup-style {
@@ -47,7 +48,7 @@ footer{
   height: 100px;
   gap: 6px;
   padding: 0 40px;
- border-right: 1px solid rgba(5, 5, 5, 0.4);
+  border-right: 1px solid rgba(5, 5, 5, 0.4);
 
 
 }
@@ -70,19 +71,12 @@ footer{
   gap: 8px;
 
 }
- h2,
- .icons{
 
-    padding-left: -15px;
-}
-.social{
-  padding-left: 20px;
-}
+
 .icons {
   display: flex;
   gap: 20px;
   flex-direction: row;
-
 
 }
 .icon1{
