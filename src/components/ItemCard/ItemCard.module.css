@@ -18,15 +18,19 @@
     width: 100%;
     justify-content: center;
     /* align-items: stretch; */
+    
 }
 
 .image-row {
+
     background-color: #edd0cc;
+    padding-bottom: 0px;
     
 }
 
 .text-row {
     background-color: #eae9e4;
+
 }
 
 
@@ -96,7 +100,6 @@
         padding: 5px;
         padding-bottom: 0%;
 }
-
 @media (max-width: 768px) {
 
   

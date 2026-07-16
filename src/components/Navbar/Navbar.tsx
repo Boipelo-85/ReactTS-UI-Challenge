@@ -49,7 +49,7 @@ export const Navbar = () => {
             <a href="#menu" className={styles.link}>MENU</a>
             <a href="#mid-content" className={styles.link}>CAKES</a>
             <a href="#card-wholeContent" className={styles.link}>PASTRIES</a>
-            <a href="Footer" className={styles.link}>CONTACT</a>
+            <a href="#footer" className={styles.link}>CONTACT</a>
           </div>
 
           <div className={styles['profile-contact']}>
