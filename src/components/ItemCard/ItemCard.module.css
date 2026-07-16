@@ -27,7 +27,11 @@
     padding-bottom: 0px;
     
 }
+.whole-pictures{
 
+        padding-bottom: 0px;
+        margin-bottom: -6px;
+}
 .text-row {
     background-color: #eae9e4;
 
@@ -88,6 +92,7 @@
     border: 1px;
     background-color: rgb(245, 157, 171);
     color:#000;
+
 }
  
 .button-style > .buttons:hover{

@@ -158,7 +158,16 @@
     .last-texts {
         padding-top: 40px;
     }
-
+    .card-title {
+    
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    font-size: clamp(2rem, 4vw, 3.125rem);
+    font-family: 'Alex Brush';
+    text-align: center;
+    
+    }
     .mid-button {
         margin-top: 12px;
     }

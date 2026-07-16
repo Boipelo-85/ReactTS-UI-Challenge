@@ -20,7 +20,7 @@ export const Footer = () => {
         </div>
         
         <div className={styles['footer-right']}>
-          <p style={{fontFamily:'Dancing Script'}}>Patisserie de Pâte</p>
+          <h2 style={{fontFamily:'Dancing Script'}}>Patisserie de Pâte </h2>
           <div className={styles['icons']}>
             <a href="https://www.facebook.com/thecakebakeshop" title="The Cake Bake Shop® on Facebook" target="_blank" >
               <FaFacebook className={styles['icon1']} />
@@ -30,9 +30,9 @@ export const Footer = () => {
             </a>
             <a  href="https://www.pinterest.com/thecakebakeshop" title="The Cake Bake Shop® on Pinterest" target="_blank" >
               <FaPinterest className={styles['icon3']} />
-            </a>
+            </a>   
           </div>
-          <p>Follow us on all socila media platform</p>
+          <p >Follow us on all socila media platform</p>
         </div>
       </ContentContainer>
     </footer>
