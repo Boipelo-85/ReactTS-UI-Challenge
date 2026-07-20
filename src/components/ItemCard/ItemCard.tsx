@@ -34,11 +34,11 @@ export const ItemCardText : React.FC<PropsItems> = ({name,description}) => {
     
       <div className={styles['mid-texts']}>
         <article>
-              <Text variant={'h2'} style={{fontFamily: '"Courier New", Courier, monospace',fontWeight: 'bold'}}>{name}</Text>
-              <Text variant={'h2'}  style={{ fontSize: '5px' }}>{description}</Text>
+              <Text variant={'h2'} style={{color:'black',fontFamily: '"Courier New", Courier, monospace',fontWeight: 'bold'}}>{name}</Text>
+              <Text variant={'h2'}  style={{ color:'black', fontSize: '5px' }}>{description}</Text>
 
               <div className={styles['button-style']}>
-
+              
                 <button className={styles['buttons']}>
                   Order now.
               </button>
