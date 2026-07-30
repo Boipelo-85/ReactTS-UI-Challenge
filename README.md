@@ -87,7 +87,6 @@ Working on this project helped me practice and improve my skills in:
 In future projects I want to:
  
 - Improve my CSS animation skills to add smoother transitions between the form and success message
-- Explore form validation using HTML built-in attributes
 - Practice building more components with a mobile-first approach from the start
 ---
  
