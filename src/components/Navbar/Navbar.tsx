@@ -23,7 +23,7 @@ export const Navbar = () => {
       <ContentContainer className={styles.content}>
         <h2 className={styles.brand}>Patisserie</h2>
 
-        <div className={styles['nav-right']}>
+         <div className={styles['nav-right']}>
           <div className={styles['mobile-controls']}>
             <button
               type="button"
@@ -45,11 +45,13 @@ export const Navbar = () => {
           </div>
 
           <div className={navLinksClassName}>
+            
             <a href="#main-picture" className={styles.link}>HOME</a>
             <a href="#menu" className={styles.link}>MENU</a>
             <a href="#mid-content" className={styles.link}>CAKES</a>
             <a href="#card-wholeContent" className={styles.link}>PASTRIES</a>
             <a href="#footer" className={styles.link}>CONTACT</a>
+
           </div>
 
           <div className={styles['profile-contact']}>

@@ -8,6 +8,7 @@ export type PropsItems = {
     name:string,
     description : string,
     imgLink : string
+    
 }
 
 export const ItemCardImage : React.FC<PropsItems> = ({imgLink}) => {

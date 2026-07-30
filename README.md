@@ -1,32 +1,99 @@
-# React + TypeScript + Vite
+# Frontend Development Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple React-TS Challenge project containing:
 
-Currently, two official plugins are available:
+- `App.tsx` — main react file
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ ## 📁 Project Structure
+ src/
+├── assets/
+├── components/
+│   ├── Cards/
+│   │   ├── Card.module.css
+│   │   └── Card.tsx
+│   ├── Footer/
+│   │   ├── Footer.module.css
+│   │   └── Footer.tsx
+│   ├── ItemCard/
+│   │   ├── ItemCard.module.css
+│   │   ├── ItemCard.tsx
+│   │   └── MenuItem.tsx
+│   ├── Navbar/
+│   │   ├── Navbar.module.css
+│   │   └── Navbar.tsx
+│   └── Texts/
+│       ├── Text.module.css
+│       └── Text.tsx
+├── ContentContainer.tsx
+├── App.css
+├── App.tsx
+├── index.css
+└── main.tsx
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Open `App.tsx` in a web browser to view the project.
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Users are able to:
+ 
+- Users are able to see a full Cake UI design
+- See different design of cakes and size
+- See hover and focus states for all interactive elements
+- See all available buttons where they can orders their cakes of choice
+- See all available specials are currently in the store
+- See all different social platforms for a user to contact the store or view more cakes in the website.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+### Screenshot
+
+![Screenshot 1](src/assets/screen_1.png)
+![Screenshot 2](src/assets/screen_2.png)
+![Screenshot 3](src/assets/screen_3.png)
+![Screenshot 4](src/assets/screen_4.png)
+
+---
+
+### Links
+
+- **Live Site:** [View Live](react-ts-ui-challenge-six.vercel.app)
+- **Repository:** [GitHub Repo](https://github.com/Boipelo-85/ReactTS-UI-Challenge.git)
+---
+ 
+## My Process
+
+### Built With
+ 
+- React-ts
+- CSS (Media Queries)
+- Vite
+---
+
+### What I Learned
+ 
+Working on this project helped me practice and improve my skills in:
+ 
+- **React Components** using Rreact-ts .
+- **Responsive design** — using media queries to switch the layout from side-by-side on desktop and mobile
+- **CSS** — for structuring the challenge layout cleanly
+
+ 
+ 
+### Continued Development
+ 
+In future projects I want to:
+ 
+- Improve my CSS animation skills to add smoother transitions between the form and success message
+- Explore form validation using HTML built-in attributes
+- Practice building more components with a mobile-first approach from the start
+---
+ 
+## Author
+ 
+- **Name:** Boipelo Harry Motileng
+- **GitHub:** [github.com/boipelo](https://github.com/Boipelo-85)
+- **LinkedIn:** [linkedin.com/in/boipelo](https://www.linkedin.com/in/boipelo-motileng)
+---
