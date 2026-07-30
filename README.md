@@ -1,4 +1,4 @@
-# Frontend Development Project
+# React UI Challenge Project
 
 A simple React-TS Challenge project containing:
 
