@@ -13,7 +13,6 @@ import macaroins from './assets/third-picture.jpg'
 import mainLogo from './assets/logo.png'
 import { Card } from './components/Cards/Card'
 
-
 function App() {
 
   const [itemCakes] = useState([
@@ -43,7 +42,6 @@ function App() {
             </div>
 
           </div>
-
         </div>
         <div id='middle-content'>
             <Text variant={'h2'} style={{color:'#222222',fontFamily: "Exo, sans-serif",fontSize:30}}> Delight in every Bite! </Text>
