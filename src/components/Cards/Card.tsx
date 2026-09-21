@@ -6,6 +6,8 @@ export const Card = () => {
         return (
 
                 <div>
+
+                        {/* first card at the bottom for holidays */}
                         <div className={styles['last-cards']}>
                                 <div className={styles['card-4']}>
                                         <h2 className={styles['card-title']}>Holiday</h2>
@@ -24,6 +26,7 @@ export const Card = () => {
                                         </div>
 
                                 </div>
+                                {/* second card for the while stock last */}
                                 <div className={styles['card-6']}>
                                         <div className={styles['last-texts']}>
 

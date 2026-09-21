@@ -4,12 +4,13 @@ import styles from './Navbar.module.css'
 import { ContentContainer } from '../ContentContainer'
 
 export const Navbar = () => {
+  //creating useState for open menu/ humbuggerMennue
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
-
+  // creating variable here
   let navLinksClassName = styles['nav-links']
   let buttonClass = styles['mobile-order-button']
 
@@ -19,12 +20,17 @@ export const Navbar = () => {
   }
 
   return (
+
+    //Navbaar section
     <nav className={styles.nav}>
       <ContentContainer className={styles.content}>
+
+        {/* //The first text at the left top of the UI */}
         <h2 className={styles.brand}>Patisserie</h2>
 
          <div className={styles['nav-right']}>
           <div className={styles['mobile-controls']}>
+            {/* Humbugger Menu button*/}
             <button
               type="button"
               className={styles['menu-toggle']}
@@ -36,7 +42,7 @@ export const Navbar = () => {
               <span />
               <span />
             </button>
-
+            {/* //Order now button at the right top */}
             <div className={buttonClass}>
               <button type="button" className={styles['nav-button']}>
                 0666 ORDER NOW
@@ -45,7 +51,7 @@ export const Navbar = () => {
           </div>
 
           <div className={navLinksClassName}>
-            
+            {/* Link to navigate through the Ui */}
             <a href="#main-picture" className={styles.link}>HOME</a>
             <a href="#menu" className={styles.link}>MENU</a>
             <a href="#mid-content" className={styles.link}>CAKES</a>

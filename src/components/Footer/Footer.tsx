@@ -9,16 +9,20 @@ import footerImage from '../../assets/footer_card.png'
 export const Footer = () => {
   return (
 
+    //Footer seciton all the content here
     <footer>
+
       <ContentContainer className={styles['footer-content']}>
+        {/* //The first card of the footer at the left corner */}
         <div className={styles['footer-left']}>
           <img src={CupCake} alt='cupcakes' className={styles['cup-style']} />
         </div>
 
+        {/* Second card of the footer where in located in the middle */}
         <div className={styles['footer-middle']}>
          <img src={footerImage} alt="footer image card thats appreciate support" className={styles['cup-style']}/>
         </div>
-        
+        {/* last card of the footer there for social  */}
         <div className={styles['footer-right']}>
           <h2 style={{fontFamily:'Dancing Script'}}>Patisserie de Pâte </h2>
           <div className={styles['icons']}>

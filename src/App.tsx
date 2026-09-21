@@ -16,6 +16,7 @@ import { Card } from './components/Cards/Card'
 
 function App() {
 
+  //UseState section of the mid-card/ arrays of mid-cards
   const [itemCakes] = useState([
 
         {name:'Custom Cake',description : 'Custom cakes in South Africa are special because they combine artistry with , flavor—bakeries across the country design cakes',imgLink : cupCakes},
@@ -26,16 +27,20 @@ function App() {
 
   return (
     
+    //The whole project div
     <div id='app-container'>
       <div id='scrollable'>
+        {/* Navbar section */}
         <Navbar />
 
         <div id='main-picture'>
 
+          {/* hero text at the middle section */}
           <div id='main-texts'>
             <Text variant={'h2'} style={{ color: 'black', fontFamily: 'Alex Brush', fontWeight: 'bold', textAlign: 'center', paddingTop: '10px', fontStyle: 'italic', fontSize: '70px',marginBottom: '0px' }}>Delight in </Text>
             <Text variant={'h2'} style={{ color: '#131212', padding: '2px',paddingTop: '5px',fontFamily: 'Century Gothic'}}>PATIICU IN FUERY BITE!</Text>
             <div>
+              {/* Order button in the hero section */}
               <button id='picture-button'>
                 ORDER NOW
               </button>
@@ -51,10 +56,12 @@ function App() {
 
         <div id='mid-content'>
 
+          {/* Menu items in the center or card */}
             <MenuItem items={itemCakes}/>
 
         </div>
 
+          {/* main logo at the center below the mid-card */}
             <div id='card-wholeContent'>
                 <img src={mainLogo} alt={' main logo here '}/>
                 <div id='card-content'>
@@ -64,6 +71,7 @@ function App() {
 
       </div>
 
+      {/* footer section */}
       <div id='footer'>
 
            <Footer  />

@@ -3,6 +3,7 @@ import React from 'react'
 import {Text} from '../Texts/Text'
 import styles from './ItemCard.module.css'
 
+//Props for the items
 export type PropsItems = {
 
     name:string,
@@ -11,6 +12,7 @@ export type PropsItems = {
     
 }
 
+//Image section where i declared images
 export const ItemCardImage : React.FC<PropsItems> = ({imgLink}) => {
 
   return (
@@ -27,6 +29,7 @@ export const ItemCardImage : React.FC<PropsItems> = ({imgLink}) => {
 
 }
 
+//Text section where i declared text that are found under the images
 export const ItemCardText : React.FC<PropsItems> = ({name,description}) => {
 
   return (
@@ -35,6 +38,7 @@ export const ItemCardText : React.FC<PropsItems> = ({name,description}) => {
     
       <div className={styles['mid-texts']}>
         <article>
+          {/* // Name and the description of the image */}
               <Text variant={'h2'} style={{color:'black',fontFamily: '"Courier New", Courier, monospace',fontWeight: 'bold'}}>{name}</Text>
               <Text variant={'h2'}  style={{ color:'black', fontSize: '5px' }}>{description}</Text>
 
