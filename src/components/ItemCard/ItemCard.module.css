@@ -1,14 +1,14 @@
+/* Item card secttion for styling */
+
 .cards-section {
     display: flex;
     flex-direction: column;
     width: 100%;
    
-
 }
 
 .cards-row {
     display: flex;
-    
 }
 
 .image-row,

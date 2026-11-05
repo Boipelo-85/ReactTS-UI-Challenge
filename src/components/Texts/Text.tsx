@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Props initialization
 type Props = {
 
         variant ?: string,

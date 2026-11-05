@@ -1,3 +1,5 @@
+/* Middles Cards Styling section */
+
 .last-cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -142,6 +144,7 @@
     color: white;
 }
 
+/* Media Queries for all devices */
 @media (max-width: 768px) {
     .last-cards {
         grid-template-columns: 1fr;

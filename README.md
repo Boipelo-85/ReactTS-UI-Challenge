@@ -32,7 +32,46 @@ A simple React-TS Challenge project containing:
 
 ## Getting Started
 
-Open `App.tsx` in a web browser to view the project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+- Git, if you are cloning the repository
+
+### Run locally
+
+1. Clone the repository and move into the project directory:
+
+   ```sh
+   git clone https://github.com/Boipelo-85/ReactTS-UI-Challenge.git
+   cd ReactTS-UI-Challenge
+   ```
+
+   If you already have the project files, open a terminal in the project directory instead.
+
+2. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. Start the Vite development server:
+
+   ```sh
+   npm run dev
+   ```
+
+4. Open the local URL printed in the terminal (usually `http://localhost:5173`) in your browser. Keep the terminal running while you use the app.
+
+### Production build
+
+To create and preview a production build, run:
+
+```sh
+npm run build
+npm run preview
+```
+
+Open the preview URL printed in the terminal.
 
 ## Features
 
